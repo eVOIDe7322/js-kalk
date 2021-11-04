@@ -68,26 +68,15 @@ const advancedCalcs = {
         //c = result
         let c;
 
-        if (1 ** a == b) {
-            c = 1
-            return c
-        } if (2 ** a == b) {
-            c = 2
-            return c
-        } else if (3 ** a == b) {
-            c = 3
-            return c
-        } else {
-            for (i = 1; i <= b; i++) {
-                var result = 1;
-                for (j = 1; j <= a; j++) {
-                    result *= i
-                            
-                    if (j == a) {
-                        if (result == b) {
-                            c = i
-                            return c   
-                        }
+        for (i = 1; i <= b; i++) {
+            var result = 1;
+            for (j = 1; j <= a; j++) {
+                result *= i
+                        
+                if (j == a) {
+                    if (result == b) {
+                        c = i
+                        return c   
                     }
                 }
             }
