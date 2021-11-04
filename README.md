@@ -5,4 +5,4 @@ Trying to do all type of calcs that I know in JS...
 - Basics Calcs - **CONCLUDED** 
 
 
-- Advanced Calcs - **IN PROGRESS**
+- Advanced Calcs - **CONCLUDED - BUT NEED MORE CALCS**
