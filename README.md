@@ -1,4 +1,4 @@
-# Calcs
+# Kalk
 Trying to do all type of calcs that I know in JS...
 
 <br/>
