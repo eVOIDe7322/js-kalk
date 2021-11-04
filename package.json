@@ -1,5 +1,5 @@
 {
-  "name": "calcs",
+  "name": "js-kalk",
   "version": "1.0.0",
   "description": "Trying To do all type of calcs",
   "main": "calculator.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eVOIDe7322/Calcs.git"
+    "url": "git+https://github.com/eVOIDe7322/js-kalk.git"
   },
   "keywords": [
-    "calc"
+    "calc", "kalk"
   ],
-  "author": "Lucas Ladeira <lucasmedinaladeira@gmail.com> (https://github.com/eVOIDe7322/)",
+  "author": "Lucas Ladeira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eVOIDe7322/Calcs/issues"
+    "url": "https://github.com/eVOIDe7322/js-kalk/issues"
   },
-  "homepage": "https://github.com/eVOIDe7322/Calcs#readme"
+  "homepage": "https://github.com/eVOIDe7322/js-kalk#readme"
 }
