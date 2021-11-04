@@ -45,7 +45,7 @@ const basicCalcs = {
     subtraction(a, b) {
         return a - b
     },
-},
+}
 
 const advancedCalcs = {
     /**
