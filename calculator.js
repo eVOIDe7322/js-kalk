@@ -17,7 +17,7 @@ const basicCalcs = {
      * @returns {-floatResult= a / b -> quotient, intResult= quotient when have rest -> quotient, rest= a % b -> rest }
      */
     division(a, b) {
-        return { floatResult: a / b, intResult: Math.floor(a / b) | 0, rest: a % b };
+        return { floatResult: a / b, intResult: Math.floor(a / b), rest: a % b };
     },
 
     /**
@@ -41,4 +41,8 @@ const basicCalcs = {
     },
 }
 
-console.log(basicCalcs.division(14, 8))
+const advancedCalcs = {
+
+}
+
+export { basicCalcs }
