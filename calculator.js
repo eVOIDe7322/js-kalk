@@ -45,7 +45,7 @@ const basicCalcs = {
     subtraction(a, b) {
         return a - b
     },
-}
+},
 
 const advancedCalcs = {
     /**
@@ -82,7 +82,7 @@ const advancedCalcs = {
                 var result = 1;
                 for (j = 1; j <= a; j++) {
                     result *= i
-                         
+                            
                     if (j == a) {
                         if (result == b) {
                             c = i
@@ -95,4 +95,4 @@ const advancedCalcs = {
     }
 }
 
-export { basicCalcs, advancedCalcs }
+module.exports = { basicCalcs, advancedCalcs }

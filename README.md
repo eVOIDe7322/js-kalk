@@ -5,7 +5,7 @@ Trying to do all type of calcs that I know in JS...
 
 # Instalation
 ```
-$ npm i js-math --save
+$ npm i js-kalk --save
 ```
 
 ### Then
@@ -14,7 +14,7 @@ $ npm i js-math --save
 
 ## Basic Calcs
 ```js
-import { basicCalcs } from 'js-math'
+import { basicCalcs } from 'js-kalk'
 
 //Sum
 basicCalcs.sum(1, 2) // => 3
@@ -35,7 +35,7 @@ basicCalcs.division(5, 4) // => { floatQuotient: 1.25, intQuotient: 1, rest: 1 }
 
 ## Advanced Calcs
 ```js
-import { advancedCalcs } from 'js-math'
+import { advancedCalcs } from 'js-kalk'
 
 //Potentiation
 advancedCalcs.potentiation(2, 3) // => 9
