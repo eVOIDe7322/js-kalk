@@ -1,0 +1,22 @@
+{
+  "name": "calcs",
+  "version": "1.0.0",
+  "description": "Trying To do all type of calcs",
+  "main": "calculator.js",
+  "scripts": {
+    "start": "node calculator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eVOIDe7322/Calcs.git"
+  },
+  "keywords": [
+    "calc"
+  ],
+  "author": "Lucas Ladeira <lucasmedinaladeira@gmail.com> (https://github.com/eVOIDe7322/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eVOIDe7322/Calcs/issues"
+  },
+  "homepage": "https://github.com/eVOIDe7322/Calcs#readme"
+}
