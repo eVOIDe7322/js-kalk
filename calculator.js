@@ -13,10 +13,17 @@ const basicCalcs = {
      * @description Divides a per b
      * @param {number} a - dividend
      * @param {number} b - divisor
-     * @returns {number} { floatResult= a / b -> quotient, intResult= quotient when have rest -> quotient, rest= a % b -> rest }
+     * @returns {number} { floatQuotient: a / b -> quotient, intQuotient: quotient when have rest -> quotient, rest: a % b -> rest }
      */
     division(a, b) {
-        return { floatResult: a / b, intResult: Math.floor(a / b), rest: a % b };
+        let floatResult = a / b
+        let intResult = Math.floor(a / b)
+
+        if (floatResult == intResult) {
+            return { quotient: floatResult, rest: 0 }
+        } else {
+            return { floatQuotient: floatResult, intQuotient: intResult, rest: a % b };
+        }
     },
 
     /**
@@ -43,12 +50,12 @@ const basicCalcs = {
 const advancedCalcs = {
     /**
      * @description Calcs a to b
-     * @param {number} a - base 
-     * @param {number} b - expoent
-     * @returns {number} a^b -> potency
+     * @param {number} a - expoent 
+     * @param {number} b - base
+     * @returns {number} b^a -> potency
      */
     potentiation(a, b) {
-        return a ** b;
+        return b ** a;
     },
 
     /**
