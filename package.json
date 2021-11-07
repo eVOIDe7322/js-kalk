@@ -1,6 +1,6 @@
 {
   "name": "js-kalk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Trying To do all type of calcs",
   "main": "calculator.js",
   "scripts": {
