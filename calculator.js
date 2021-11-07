@@ -65,9 +65,6 @@ const advancedCalcs = {
      * @returns {number} -> a^√b -> root
      */
     rooting(a, b) {
-        //c = result
-        let c;
-
         for (i = 1; i <= b; i++) {
             var result = 1;
             for (j = 1; j <= a; j++) {
@@ -75,8 +72,7 @@ const advancedCalcs = {
                         
                 if (j == a) {
                     if (result == b) {
-                        c = i
-                        return c   
+                        return i
                     }
                 }
             }
